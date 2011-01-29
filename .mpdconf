@@ -1,0 +1,26 @@
+follow_inside_symlinks  no
+follow_outside_symlinks yes
+db_file                 "~/.mpd/mpd.db"
+sticker_file            "~/.mpd/sticker"
+log_file                "~/.mpd/mpd.log"
+
+pid_file                "~/.mpd/pid"
+music_directory         "~/music"
+playlist_directory      "~/.mpd/playlists"
+state_file              "~/.mpd/state"
+
+bind_to_address         "localhost"
+port			"6600"
+max_playlist_length     "50000"
+filesystem_charset      "UTF-8"
+#id3v1_encoding		"UTF-8"
+
+audio_output {
+	type		"pulse"
+	name		"My Pulse Output"
+}
+
+input {
+        plugin "curl"
+}
+
