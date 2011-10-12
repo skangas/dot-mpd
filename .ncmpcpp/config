@@ -1,0 +1,7 @@
+mpd_music_dir = "~/music"
+now_playing_prefix = "> "
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+default_find_mode = "wrapped"
+jump_to_now_playing_song_at_start = "yes"
+ask_before_clearing_main_playlist = "yes"
