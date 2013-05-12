@@ -1,5 +1,5 @@
-follow_inside_symlinks  no
-follow_outside_symlinks yes
+follow_inside_symlinks  "no"
+follow_outside_symlinks "yes"
 db_file                 "~/.mpd/mpd.db"
 sticker_file            "~/.mpd/sticker"
 log_file                "~/.mpd/mpd.log"
