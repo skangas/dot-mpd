@@ -257,7 +257,7 @@ mpd_music_dir = "~/music"
 ##
 #
 #song_columns_list_format = "(7f)[green]{l} (25)[cyan]{a} (40)[]{t|f} (30)[red]{b}"
-song_columns_list_format = "(6f)[green]{l} (25)[cyan]{a} (40)[]{t|f} (30)[red]{b}"
+song_columns_list_format = "(6f)[green]{l} (25)[cyan]{a} (40)[]{t|f} (30)[red]{b} (3f)[green]{n}"
 #
 ##### various settings #####
 #
